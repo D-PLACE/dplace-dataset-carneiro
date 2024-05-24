@@ -1,3 +1,4 @@
+import collections
 import pathlib
 import textwrap
 
@@ -5,6 +6,19 @@ from cldfbench import Dataset as BaseDataset
 
 from pydplace import DatasetWithSocieties
 from pydplace.dataset import data_schema
+
+REFS = collections.Counter()
+
+
+def iter_refs(s):
+    for ref in s.split(';'):
+        ref = ref.strip()
+        ref, _, pages = ref.partition(':')
+        REFS.update([ref.strip()])
+        if pages:
+            yield '{}[{}]'.format(ref.strip(), pages.strip())
+        else:
+            yield ref.strip()
 
 
 class Dataset(DatasetWithSocieties):
@@ -64,7 +78,11 @@ class Dataset(DatasetWithSocieties):
                     Soc_ID=p.stem.split('_')[0],
                     Value=row['Trait_presence'],
                     Comment=row['Original_notes'],
-                    Source=None,
+                    Source=list(iter_refs(row['Reference'])),
                     admin_comment=row['Comments'],
                 ))
         self.local_makecldf(args)
+
+        for k, v in REFS.most_common():
+            print(k)
+        print(len(REFS))

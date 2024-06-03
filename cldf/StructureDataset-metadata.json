@@ -7,19 +7,20 @@
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
+    "dc:source": "sources.bib",
     "dc:title": "Robert L. Carneiros Dataset",
     "dcat:accessURL": "https://github.com/d-place/dplace-dataset-carneiro",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/d-place/dplace-dataset-carneiro",
             "rdf:type": "prov:Entity",
-            "dc:created": "588e15b",
+            "dc:created": "031ef9f",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.0-3-g384662da29",
+            "dc:created": "v5.0-4-g1c5686ae9a",
             "dc:title": "Glottolog"
         }
     ],

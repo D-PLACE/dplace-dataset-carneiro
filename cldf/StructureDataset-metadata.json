@@ -6,6 +6,7 @@
         }
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
+    "dc:description": "Robert L. Carneiro's dataset 6th edition",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:source": "sources.bib",
     "dc:title": "Robert L. Carneiros Dataset",
@@ -14,13 +15,13 @@
         {
             "rdf:about": "https://github.com/d-place/dplace-dataset-carneiro",
             "rdf:type": "prov:Entity",
-            "dc:created": "031ef9f",
+            "dc:created": "9e1c041",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.0-4-g1c5686ae9a",
+            "dc:created": "v5.0",
             "dc:title": "Glottolog"
         }
     ],

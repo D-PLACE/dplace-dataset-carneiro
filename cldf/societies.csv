@@ -1,69 +1,73 @@
 ID,Name,Latitude,Longitude,Glottocode,Name_and_ID_in_source,xd_id,alt_names_by_society,main_focal_year,HRAF_name_ID,HRAF_ID,origLat,origLong,comment,glottocode_comment,region
-C1,Ancient Romans,41.90,12.50,lati1261,Roman Empire,,,125,Imperial Romans (EI09),,,,,,Southeastern Europe
-C2,Ancient India,25.60,85.10,clas1258,Ancient India (Mauryan Empire),,,-250,,,,,Coordinates for capital city of Pataliputra (modern Patna),,Indian Subcontinent
-C3,Ancient Egyptians,30.00,31.00,egyp1246,New Kingdom Egypt,,,-1350,,,,,,,Northern Africa
-C4,Classical Athens,38.00,23.70,anci1242,Periclean Athens,,,-450,,,,,,,Southeastern Europe
-C5,Vikings,59.00,11.10,oldn1244,Vikings,,,,,,,,,,Northern Europe
-C6,Ashanti,7.00,-2.00,asan1239,Ashanti,,,,Akan (FE12),,,,,,West Tropical Africa
-C7,Tahitians,-17.71,-149.54,tahi1242,Tahitians,,,,,,,,,,South-Central Pacific
-C8,Ganda,1.00,32.00,gand1255,Baganda,,,,Ganda (FK07),,,,,,East Tropical Africa
-C9,Dogon,15.00,-3.00,bank1259,Dogon,,,,Dogon (FA16),,,,,,West Tropical Africa
-C10,Azande,5.00,27.00,zand1248,Azande,,,,Azande (FO07),,,,,,West-Central Tropical Africa
-C11,Tsonga,-24.00,32.00,tson1249,Thonga,,,,Tsonga (FT06),,,,,,South Tropical Africa
-C12,Venda,-23.00,30.00,vend1245,Bavenda,,,,,,,,,,Southern Africa
-C13,Batak,2.00,98.50,toba1265,Batak,,,,,,,,"Probably more general than Toba Batak (Ib4, xd753) but there should be overlap between them",,Malesia
-C14,Shilluk,10.00,32.00,shil1265,Shilluk,,,,Shilluk (FJ23),,,,,,Northeast Tropical Africa
-C15,,21.47,92.32,mruu1242,Mru,,,1955,,,,,,,Indian Subcontinent
-C16,Mangarevans,-23.12,-134.97,mang1401,Mangarevans,,,,,,,,,,South-Central Pacific
-C17,Muscogee,33.00,-84.00,cree1270,Creek,,,,Creek (NN11),,,,,,Southeastern U.S.A.
-C18,Ao,27.00,94.00,aona1235,Ao Naga,,,,,,,,,,Indian Subcontinent
-C20,Futunans,-14.31,-178.11,east2447,Futunans,,,,,,,,,,Southwestern Pacific
-C21,M?ori,-35.33,174.17,maor1246,Maori,,,,Maori (OZ04),,,,,,New Zealand
-C22,Maasai,-3.50,36.75,masa1300,Masai,,,,Maasai (FL12),,,,,,East Tropical Africa
-C23,Seneca,43.00,-77.00,sene1264,Iroquois,,,,Iroquois (NM09),,,,"Probably match to Seneca, based on references (Morgan 1901, Noon 1949)",,Northeastern U.S.A.
-C24,Kipsigis,-1.00,36.00,kips1239,Kipsigis,,,,,,,,,,East Tropical Africa
-C25,Nuu chah nulth,49.16,-125.85,nuuc1236,Nootka,,,,Nuu-Chah-Nulth (NE11),,,,,,Western Canada
-C26,Mandan,47.00,-101.00,mand1446,Mandan,,,,Mandan (NQ17),,,,,,North-Central U.S.A.
-C27,Callinago,15.41,-61.27,isla1278,Callinago,,,1650,Island Carib (ST13),,,,,,Caribbean
-C28,Trobriands,-8.60,151.00,kili1267,Trobriands,,,,Trobriands (OL06),,,,,,Papuasia
-C29,Kiwai,-9.00,143.00,sout2949,Kiwai,,,,,,,,,,Papuasia
-C30,Mala,-9.00,161.00,mala1542,Mala,,,,,,,,"Probably more general than Kwaio (Ig18, xd850) but there should be overlap between them",,Papuasia
-C31,Nama,-26.00,18.00,nama1265,Nama Hottentots,,,,Khoi (FX13),,,,,,Southern Africa
-C32,Navajo,36.50,-110.00,nava1243,Navajo,,,1850,Navajo (NT13),,,,,,Southwestern U.S.A.
-C34,Manobo,8.00,126.00,agus1235,Manóbo,,,,,,,,,,Malesia
-C35,Atayal,24.00,121.00,atay1247,Atayal,,,,Atayal (AD08),,,,,,Eastern Asia
-C36,Toda,12.00,77.00,toda1252,Toda,,,,Toda (AW60),,,,,,Indian Subcontinent
-C37,Nuer,8.00,32.00,nuer1246,Nuer,,,,Nuer (FJ22),,,,,,Northeast Tropical Africa
-C38,Tolowa,42.00,-124.00,tolo1259,Tolowa,,,,,,,,,,Northwestern U.S.A.
-C40,Omaha,41.00,-96.00,omah1248,Omaha,,,,Omaha (NQ21),,,,,,North-Central U.S.A.
-C41,Delaware,41.00,-75.00,unam1242,Delaware,,,,Delaware (NM07),,,,,,Northeastern U.S.A.
-C42,Tupinambá,-22.81,-42.11,tupi1273,Tupinambá,,,,Tupinamba (SO09),,,,,,Brazil
-C43,Chachi,1.00,-79.00,chac1249,Cayapa,,,,Chachi (SD06),,,,,,Western South America
-C45,Kutenai,50.00,-117.00,kute1249,Kutenai,,,,Kutenai (NF08),,,,,,Western Canada
-C46,Tehuelche,-46.00,-70.00,tehu1242,Tehuelche,,,,Tehuelche (SH05),,,,,,Southern South America
-C47,Abipón,-29.00,-61.00,abip1241,Abipones,,,,Abipón (SI04),,,,,,Southern South America
-C48,Guaraní,-23.50,-56.50,tupi1282,Guaraní,,,,Guaraní (SM04),,,,"Guaraní in Paraguay, but not clear wheter closer to Paraguayan Guaraní (para1311) or Mbyá Guaraní (mbya1239)",,Southern South America
-C49,Blackfoot,51.00,-112.00,pieg1239,Blackfoot,,,1800,Blackfoot (NF06),,,,,,Western Canada
-C50,Ticuna,-3.00,-70.00,ticu1245,Tukuna,,,,Ticuna (SQ20),,,,,,Western South America
-C51,Kuikuru,-13.00,-54.00,kuik1246,Kuikuru,,,,,,,,,,Brazil
-C52,Cubeo,1.00,-71.00,cube1242,Cubeo,,,,Tucano (SQ19),,,,,,Western South America
-C53,Havasupai,36.00,-112.00,hava1249,Havasupai,,,1870,Havasupai (NT14),,,,,,Southwestern U.S.A.
-C54,Aeta,15.23,120.16,boto1242,Zambales Negrito,,,,,,,,,,Malesia
-C55,Yanomami,2.00,-65.00,yano1261,Yanomamö,,,,Yanoama (SQ18),,,,,,Northern South America
-C56,Shavante,-14.00,-52.00,xava1240,Shavante,,,,Xavante (SP26),,,,,,Brazil
-C57,Barama River Carib,5.00,-59.00,mura1272,Barama River Caribs,,,,Barama River Carib (SR09),,,,,,Northern South America
-C58,Chippewa,47.35,-94.27,chip1241,Chippewa (Northcentral Minnesota),,,,Ojibwa (NG06),,,,"Coordinates from glottolog chip1241, cross-id to Minnesota Ojibwa (EA Na36)",,North-Central U.S.A.
-C59,Lengua,-23.00,-59.00,nort2971,Lengua,,,,Enxet And Enlhet (SK15),,,,,,Southern South America
-C60,Karankawa,29.00,-96.00,kara1289,Karankawa,,,,,,,,,,South-Central U.S.A.
-C61,"Yolngu, Dhuwal",-12.48,135.96,dhuw1249,Murngin,,,,Yolngu (OI17),,,,,,Australia
-C62,Tasiilaq,66.00,-37.00,tunu1234,Ammassalik Eskimo,,,,,,,,,,Subarctic America
-C63,Amahuaca,-10.00,-72.00,amah1246,Amahuaca,,,,Amahuaca (SE06),,,,,,Brazil
-C64,Andamanese,12.00,93.00,akab1249,Andamanese,,,,Andamans (AZ02),,,,,,Indo-China
-C65,Vedda,8.00,81.00,vedd1240,Vedda,,,,Vedda (AX05),,,,,,Indian Subcontinent
-C66,Pitjantjatjara,-26.00,130.00,pitj1243,Pitjantjatjara,,,,,,,,,,Australia
-C67,!Kung,-20.00,21.00,juho1239,Bushmen (NW groups),,,,San (FX10),,,,,,Southern Africa
-C68,Semang,5.00,101.00,kens1248,Semang,,,,Semang (AN07),,,,,,Malesia
-C69,Sirionó,-16.00,-64.00,siri1273,Sirionó,,,,Sirionó (SF21),,,,,,Western South America
-C70,Ona,-54.00,-69.00,onaa1245,Ona,,,,Ona (SH04),,,,,,Southern South America
-C71,Tasmanians,-42.00,146.00,port1278,Tasmanians,,,,Tasmanians (OI19),,,,"Not specified whether ""Northwestern (xd783)"" or ""Southeastern (xd980)"", but matched to EA - Tasmanians (Id8) (xd783)",,Australia
-C72,Alacaluf,-52.00,-74.00,qawa1238,Alacaluf,,,,,,,,,,Southern South America
+CARNEIRO_C1,Ancient Romans,41.9,12.5,lati1261,Roman Empire,,,125,Imperial Romans (EI09),,,,,,Southeastern Europe
+CARNEIRO_C2,Ancient India,25.6,85.1,clas1258,Ancient India (Mauryan Empire),,,-250,,,,,Coordinates for capital city of Pataliputra (modern Patna),,Indian Subcontinent
+CARNEIRO_C3,Ancient Egyptians,30,31,egyp1246,New Kingdom Egypt,,,-1350,,,,,,,Northern Africa
+CARNEIRO_C4,Classical Athens,38,23.7,anci1242,Periclean Athens,,,-450,,,,,,,Southeastern Europe
+CARNEIRO_C5,Vikings,59,11.1,oldn1244,Vikings,,,,,,,,,,Northern Europe
+CARNEIRO_C6,Ashanti,7,-2,asan1239,Ashanti,,,,Akan (FE12),,,,,,West Tropical Africa
+CARNEIRO_C7,Tahitians,-17.71,-149.54,tahi1242,Tahitians,,,,,,,,,,South-Central Pacific
+CARNEIRO_C8,Ganda,1,32,gand1255,Baganda,,,,Ganda (FK07),,,,,,East Tropical Africa
+CARNEIRO_C9,Dogon,15,-3,bank1259,Dogon,,,,Dogon (FA16),,,,,,West Tropical Africa
+CARNEIRO_C10,Azande,5,27,zand1248,Azande,,,,Azande (FO07),,,,,,West-Central Tropical Africa
+CARNEIRO_C11,Tsonga,-24,32,tson1249,Thonga,,,,Tsonga (FT06),,,,,,South Tropical Africa
+CARNEIRO_C12,Venda,-23,30,vend1245,Bavenda,,,,,,,,,,Southern Africa
+CARNEIRO_C13,Batak,2,98.5,toba1265,Batak,,,,,,,,"Probably more general than Toba Batak (Ib4, xd753) but there should be overlap between them",,Malesia
+CARNEIRO_C14,Shilluk,10,32,shil1265,Shilluk,,,,Shilluk (FJ23),,,,,,Northeast Tropical Africa
+CARNEIRO_C15,Mru,21.47,92.32,mruu1242,Mru,,,1955,,,,,,,Indian Subcontinent
+CARNEIRO_C16,Mangarevans,-23.12,-134.97,mang1401,Mangarevans,,,,,,,,,,South-Central Pacific
+CARNEIRO_C17,Muscogee,33,-84,cree1270,Creek,,,,Creek (NN11),,,,,,Southeastern U.S.A.
+CARNEIRO_C18,Ao,27,94,aona1235,Ao Naga,,,,,,,,,,Indian Subcontinent
+CARNEIRO_C20,Futunans,-14.31,-178.11,east2447,Futunans,,,,,,,,,,Southwestern Pacific
+CARNEIRO_C22,Maasai,-3.5,36.75,masa1300,Masai,,,,Maasai (FL12),,,,,,East Tropical Africa
+CARNEIRO_C23,Seneca,43,-77,sene1264,Iroquois,,,,Iroquois (NM09),,,,"Probably match to Seneca, based on references (Morgan 1901, Noon 1949)",,Northeastern U.S.A.
+CARNEIRO_C25,Nuu chah nulth,49.16,-125.85,nuuc1236,Nootka,,,,Nuu-Chah-Nulth (NE11),,,,,,Western Canada
+CARNEIRO_C26,Mandan,47,-101,mand1446,Mandan,,,,Mandan (NQ17),,,,,,North-Central U.S.A.
+CARNEIRO_C27,Callinago,15.41,-61.27,isla1278,Callinago,,,1650,Island Carib (ST13),,,,,,Caribbean
+CARNEIRO_C28,Trobriands,-8.6,151,kili1267,Trobriands,,,,Trobriands (OL06),,,,,,Papuasia
+CARNEIRO_C29,Kiwai,-9,143,sout2949,Kiwai,,,,,,,,,,Papuasia
+CARNEIRO_C30,Mala,-9,161,mala1542,Mala,,,,,,,,"Probably more general than Kwaio (Ig18, xd850) but there should be overlap between them",,Papuasia
+CARNEIRO_C31,Nama,-26,18,nama1265,Nama Hottentots,,,,Khoi (FX13),,,,,,Southern Africa
+CARNEIRO_C32,Navajo,36.5,-110,nava1243,Navajo,,,1850,Navajo (NT13),,,,,,Southwestern U.S.A.
+CARNEIRO_C34,Manobo,8,126,agus1235,Manóbo,,,,,,,,,,Malesia
+CARNEIRO_C35,Atayal,24,121,atay1247,Atayal,,,,Atayal (AD08),,,,,,Eastern Asia
+CARNEIRO_C36,Toda,12,77,toda1252,Toda,,,,Toda (AW60),,,,,,Indian Subcontinent
+CARNEIRO_C37,Nuer,8,32,nuer1246,Nuer,,,,Nuer (FJ22),,,,,,Northeast Tropical Africa
+CARNEIRO_C38,Tolowa,42,-124,tolo1259,Tolowa,,,,,,,,,,Northwestern U.S.A.
+CARNEIRO_C40,Omaha,41,-96,omah1248,Omaha,,,,Omaha (NQ21),,,,,,North-Central U.S.A.
+CARNEIRO_C41,Delaware,41,-75,unam1242,Delaware,,,,Delaware (NM07),,,,,,Northeastern U.S.A.
+CARNEIRO_C42,Tupinambá,-22.81,-42.11,tupi1273,Tupinambá,,,,Tupinamba (SO09),,,,,,Brazil
+CARNEIRO_C43,Chachi,1,-79,chac1249,Cayapa,,,,Chachi (SD06),,,,,,Western South America
+CARNEIRO_C45,Kutenai,50,-117,kute1249,Kutenai,,,,Kutenai (NF08),,,,,,Western Canada
+CARNEIRO_C46,Tehuelche,-46,-70,tehu1242,Tehuelche,,,,Tehuelche (SH05),,,,,,Southern South America
+CARNEIRO_C47,Abipón,-29,-61,abip1241,Abipones,,,,Abipón (SI04),,,,,,Southern South America
+CARNEIRO_C48,Guaraní,-23.5,-56.5,tupi1282,Guaraní,,,,Guaraní (SM04),,,,"Guaraní in Paraguay, but not clear wheter closer to Paraguayan Guaraní (para1311) or Mbyá Guaraní (mbya1239)",,Southern South America
+CARNEIRO_C49,Blackfoot,51,-112,pieg1239,Blackfoot,,,1800,Blackfoot (NF06),,,,,,Western Canada
+CARNEIRO_C50,Ticuna,-3,-70,ticu1245,Tukuna,,,,Ticuna (SQ20),,,,,,Western South America
+CARNEIRO_C51,Kuikuru,-13,-54,kuik1246,Kuikuru,,,,,,,,,,Brazil
+CARNEIRO_C52,Cubeo,1,-71,cube1242,Cubeo,,,,Tucano (SQ19),,,,,,Western South America
+CARNEIRO_C53,Havasupai,36,-112,hava1249,Havasupai,,,1870,Havasupai (NT14),,,,,,Southwestern U.S.A.
+CARNEIRO_C54,Aeta,15.23,120.16,boto1242,Zambales Negrito,,,,,,,,,,Malesia
+CARNEIRO_C55,Yanomami,2,-65,yano1261,Yanomamö,,,,Yanoama (SQ18),,,,,,Northern South America
+CARNEIRO_C56,Shavante,-14,-52,xava1240,Shavante,,,,Xavante (SP26),,,,,,Brazil
+CARNEIRO_C57,Barama River Carib,5,-59,mura1272,Barama River Caribs,,,,Barama River Carib (SR09),,,,,,Northern South America
+CARNEIRO_C58,Chippewa,47.35,-94.27,chip1241,Chippewa (Northcentral Minnesota),,,,Ojibwa (NG06),,,,"Coordinates from glottolog chip1241, cross-id to Minnesota Ojibwa (EA Na36)",,North-Central U.S.A.
+CARNEIRO_C59,Lengua,-23,-59,nort2971,Lengua,,,,Enxet And Enlhet (SK15),,,,,,Southern South America
+CARNEIRO_C60,Karankawa,29,-96,kara1289,Karankawa,,,,,,,,,,South-Central U.S.A.
+CARNEIRO_C61,"Yolngu, Dhuwal",-12.48,135.96,dhuw1249,Murngin,,,,Yolngu (OI17),,,,,,Australia
+CARNEIRO_C62,Tasiilaq,66,-37,tunu1234,Ammassalik Eskimo,,,,,,,,,,Subarctic America
+CARNEIRO_C63,Amahuaca,-10,-72,amah1246,Amahuaca,,,,Amahuaca (SE06),,,,,,Brazil
+CARNEIRO_C64,Andamanese,12,93,akab1249,Andamanese,,,,Andamans (AZ02),,,,,,Indo-China
+CARNEIRO_C65,Vedda,8,81,vedd1240,Vedda,,,,Vedda (AX05),,,,,,Indian Subcontinent
+CARNEIRO_C66,Pitjantjatjara,-26,130,pitj1243,Pitjantjatjara,,,,,,,,,,Australia
+CARNEIRO_C67,!Kung,-20,21,juho1239,Bushmen (NW groups),,,,San (FX10),,,,,,Southern Africa
+CARNEIRO_C68,Semang,5,101,kens1248,Semang,,,,Semang (AN07),,,,,,Malesia
+CARNEIRO_C69,Sirionó,-16,-64,siri1273,Sirionó,,,,Sirionó (SF21),,,,,,Western South America
+CARNEIRO_C70,Ona,-54,-69,onaa1245,Ona,,,,Ona (SH04),,,,,,Southern South America
+CARNEIRO_C71,Tasmanians,-42,146,port1278,Tasmanians,,,,Tasmanians (OI19),,,,"Not specified whether ""Northwestern (xd783)"" or ""Southeastern (xd980)"", but matched to EA - Tasmanians (Id8) (xd783)",,Australia
+CARNEIRO_C72,Alacaluf,-52,-74,qawa1238,Alacaluf,,,,,,,,,,Southern South America
+CARNEIRO_C73,Zulu,-29,31,zulu1248,Zulu (Tsaka Classic),,,,Zulu (FX20),,,,,,Southern Africa
+CARNEIRO_C74,Eauripik,6.69,143.04,wole1240,Eauripik,,,,,,,,,,Northwestern Pacific
+CARNEIRO_C75,Klallam,48,-123,clal1241,Klallam,,,,,,,,,,Northwestern U.S.A.
+CARNEIRO_C76,Seri,29,-112,seri1257,Seri,,,,Seri (NU31),,,,,,Mexico
+CARNEIRO_C77,Agta (Casiguran),17.33,122.13,casi1235,Agta (NE Luzon),,,,,,,,The main source (Tom N. Headland) studied Casiguran Agta,,Malesia
+CARNEIRO_C78,Dene,60,-105,chip1261,Chipewyan,,,,Chipewyans (ND07),,,,,,Subarctic America

@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/d-place/dplace-dataset-carneiro",
             "rdf:type": "prov:Entity",
-            "dc:created": "9e1c041",
+            "dc:created": "16212ad",
             "dc:title": "Repository"
         },
         {
@@ -41,7 +41,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
             "dc:description": "Values are coded datapoints, i.e. measurements of a variable for a society.\n\n**Note:** Missing data is signaled by an empty Value column.",
-            "dc:extent": 25338,
+            "dc:extent": 44496,
             "tableSchema": {
                 "columns": [
                     {
@@ -159,7 +159,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
             "dc:description": "We use the term \u201csociety\u201d to refer to cultural groups. In most cases, a society can be understood to represent a group of people at a focal location with a shared language that differs from that of their neighbors. However, in some cases multiple societies share a language.",
-            "dc:extent": 68,
+            "dc:extent": 72,
             "tableSchema": {
                 "columns": [
                     {

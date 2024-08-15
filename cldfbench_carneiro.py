@@ -44,7 +44,7 @@ def iter_refs(s):
         '; Frank [?]': '',
         'Frank [?]; ': '',
         'Cary and Haarhoff 1940': 'Cary & Haarhoff 1940',
-        'Adams 1801': 'Adams 1901',
+        '; Adams 1801: 310': '',
         'Carcopino 176,187': 'Carcopino 1956: 176,187',
         'Eells 1887:': 'Eells 1887b:',
         'Eels 1887:': 'Eells 1887b:',

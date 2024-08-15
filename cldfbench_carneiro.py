@@ -14,12 +14,16 @@ REFS = collections.Counter()
 
 
 def iter_refs(s):
+    s = s.replace(
+        "Cook [?]: 226; Ellis 1831, vol. 3: 123; Cook [?]: 226",
+        "Cook [?]: 226; Ellis 1831 (vol. 3): 123"
+    )
     for k, v in {
         'Busia 13-14': 'Busia 1951: 13-14',
         'Rattray : 100,134': 'Rattray 1923: 100,134',
         'XXIX;XXXIII;': 'XXIX,XXXIII;',
         'Howel 1941:': 'Howell 1941:',
-        'Howell [?], etc. all sources': 'Howell 1941; Howell 1944; Howell 1952a; Howell 1952b; Howell 1952b; Howell 1953',
+        'Howell [?], etc. all sources': 'Howell 1941; Howell 1944; Howell 1952a; Howell 1952b; Howell 1953',
         'Howell 1952:': 'Howell 1952a:',
         'Leinhardt 1954': 'Lienhardt 1954',
         'Evans-Pitchard': 'Evans-Pritchard',

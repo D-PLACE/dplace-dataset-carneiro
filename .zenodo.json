@@ -1,5 +1,5 @@
 {
-    "title": "Robert L. Carneiros Dataset",
+    "title": "D-PLACE dataset derived from Robert L. Carneiro's Dataset (6th edition)",
     "access_right": "open",
     "keywords": [
         "cldf:StructureDataset",
@@ -8,5 +8,10 @@
     "upload_type": "dataset",
     "license": {
         "id": "CC-BY-4.0"
-    }
+    },
+    "communities": [
+        {
+            "identifier": "dplace"
+        }
+    ]
 }

@@ -120,7 +120,7 @@ class Dataset(DatasetWithSocieties):
     id = "dplace-dataset-carneiro"
 
     def mkid(self, local):
-        return '{}_{}'.format(self.id.upper(), local)
+        return '{}_{}'.format(self.id.split('-')[-1].upper(), local)
 
     def cmd_download(self, args):
         for p in self.raw_dir.joinpath('societies').glob('*.xlsx'):

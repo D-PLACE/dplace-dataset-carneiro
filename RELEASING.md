@@ -5,7 +5,7 @@ cldfbench download cldfbench_carneiro.py
 ```
 
 ```shell
-cldfbench makecldf cldfbench_carneiro.py --with-zenodo --with-cldfreadme --glottolog-version v5.0
+cldfbench makecldf cldfbench_carneiro.py --with-cldfreadme --glottolog-version v5.0
 pytest
 ```
 
@@ -19,4 +19,6 @@ cldferd --format compact.svg cldf > erd.svg
 
 ```shell
 cldfbench readme cldfbench_carneiro.py
+cldfbench zenodo --communities dplace cldfbench_carneiro.py
+dplace check cldfbench_carneiro.py
 ```

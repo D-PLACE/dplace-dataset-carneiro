@@ -6,16 +6,16 @@
         }
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
-    "dc:description": "Robert L. Carneiro's dataset 6th edition",
+    "dc:description": "The Carneiro dataset (6th edition) describes 618 cultural practices for 72 societies that are globally distributed and encompass a wide range of cultural complexity. The data was collected by Robert Carneiro and his team in the 1960s and 1970s for the Scale Analysis project. The original notes are deposited at the American Museum of Natural History.",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:source": "sources.bib",
-    "dc:title": "Robert L. Carneiros Dataset",
+    "dc:title": "D-PLACE dataset derived from Robert L. Carneiro's Dataset (6th edition)",
     "dcat:accessURL": "https://github.com/d-place/dplace-dataset-carneiro",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/d-place/dplace-dataset-carneiro",
             "rdf:type": "prov:Entity",
-            "dc:created": "16212ad",
+            "dc:created": "a7a021c",
             "dc:title": "Repository"
         },
         {
@@ -35,7 +35,7 @@
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "carneiro",
+    "rdf:ID": "dplace-dataset-carneiro",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "tables": [
         {

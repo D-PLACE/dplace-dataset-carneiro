@@ -1,4 +1,4 @@
-# Robert L. Carneiros Dataset
+# D-PLACE dataset derived from Robert L. Carneiro's Dataset (6th edition)
 
 [![CLDF validation](https://github.com/d-place/dplace-dataset-carneiro/workflows/CLDF-validation/badge.svg)](https://github.com/d-place/dplace-dataset-carneiro/actions?query=workflow%3ACLDF-validation)
 
@@ -10,7 +10,7 @@ this dataset using the DOI of the [particular released version](../../releases/)
 ## Description
 
 
-Robert L. Carneiro's dataset 6th edition
+The Carneiro dataset (6th edition) describes 618 cultural practices for 72 societies that are globally distributed and encompass a wide range of cultural complexity. The data was collected by Robert Carneiro and his team in the 1960s and 1970s for the Scale Analysis project. The original notes are deposited at the American Museum of Natural History.
 
 This dataset is licensed under a CC-BY-4.0 license
 

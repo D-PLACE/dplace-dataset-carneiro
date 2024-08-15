@@ -1,21 +1,21 @@
 <a name="ds-structuredatasetmetadatajson"> </a>
 
-# StructureDataset Robert L. Carneiros Dataset
+# StructureDataset D-PLACE dataset derived from Robert L. Carneiro's Dataset (6th edition)
 
 **CLDF Metadata**: [StructureDataset-metadata.json](./StructureDataset-metadata.json)
 
 **Sources**: [sources.bib](./sources.bib)
 
-Robert L. Carneiro's dataset 6th edition
+The Carneiro dataset (6th edition) describes 618 cultural practices for 72 societies that are globally distributed and encompass a wide range of cultural complexity. The data was collected by Robert Carneiro and his team in the 1960s and 1970s for the Scale Analysis project. The original notes are deposited at the American Museum of Natural History.
 
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF StructureDataset](http://cldf.clld.org/v1.0/terms.rdf#StructureDataset)
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/d-place/dplace-dataset-carneiro
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/d-place/dplace-dataset-carneiro/tree/16212ad">d-place/dplace-dataset-carneiro 16212ad</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/d-place/dplace-dataset-carneiro/tree/a7a021c">d-place/dplace-dataset-carneiro a7a021c</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.12</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
-[rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | carneiro
+[rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | dplace-dataset-carneiro
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 

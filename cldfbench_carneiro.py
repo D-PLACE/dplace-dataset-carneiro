@@ -163,11 +163,13 @@ class Dataset(DatasetWithSocieties):
         skip = {
             'Gould 1967',
         }
+        focal_years = {}
 
         for row in self.raw_dir.read_csv('societies.csv', encoding='latin1', dicts=True):
             row['ID'] = self.mkid(row['ID'])
             if not row['Latitude']:
                 continue
+            focal_years[row['ID']] = row['main_focal_year'] or None
             self.add_society(args.writer, **{k: v.strip() for k, v in row.items()})
         for row in self.raw_dir.read_csv('traits.csv', encoding='latin1', dicts=True):
             row = {k: v.strip() for k, v in row.items()}
@@ -178,7 +180,7 @@ class Dataset(DatasetWithSocieties):
                     ID=rid,
                     Name=row['Trait_name'],
                     Description=row['Trait_description'],
-                    category=row['Category'],
+                    category=[row['Category']],
                     type='Categorical',
                     ColumnSpec=None,
                 ))
@@ -207,14 +209,16 @@ class Dataset(DatasetWithSocieties):
                     if pages:
                         src += '[{}]'.format(pages.strip().replace(';', ','))
                     source.append(src)
+                sid = self.mkid(p.stem.split('_')[0])
                 args.writer.objects['ValueTable'].append(dict(
                     ID=str(i + 1),
                     Var_ID=rid,
                     Code_ID='{}-{}'.format(rid, row['Trait_presence']),
-                    Soc_ID=self.mkid(p.stem.split('_')[0]),
+                    Soc_ID=sid,
                     Value=row['Trait_presence'],
                     Comment=row['Original_notes'],
                     Source=source,
                     admin_comment=row['Comments'],
+                    year=int(focal_years[sid]) if focal_years[sid] else None,
                 ))
         self.local_makecldf(args)
